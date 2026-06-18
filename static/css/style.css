@@ -771,6 +771,8 @@ body {
     opacity: 0;
     transform: translateY(5px);
     transition: var(--transition-smooth);
+    display: flex;
+    gap: 0.5rem;
 }
 
 .update-card:hover .card-actions {
@@ -791,6 +793,22 @@ body {
     background: var(--color-twitter);
     color: white;
     box-shadow: 0 4px 10px rgba(29, 155, 240, 0.25);
+}
+
+.btn-copy-card-action {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--color-text-muted);
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 8px;
+}
+
+.btn-copy-card-action:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: var(--color-text-main);
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
 }
 
 /* HTML content inside cards */
