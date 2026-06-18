@@ -1300,3 +1300,103 @@ body {
         padding: 1rem;
     }
 }
+
+/* --- LIGHT THEME STYLES --- */
+[data-theme="light"] {
+    --color-bg: #f8fafc;
+    --color-card-bg: rgba(255, 255, 255, 0.85);
+    --color-card-border: rgba(15, 23, 42, 0.08);
+    --color-text-main: #0f172a;
+    --color-text-muted: #64748b;
+    --color-accent: #0284c7;
+    --color-accent-glow: rgba(2, 132, 199, 0.08);
+    
+    --color-feat-bg: rgba(16, 185, 129, 0.08);
+    --color-feat-border: rgba(16, 185, 129, 0.3);
+    --color-feat-glow: rgba(16, 185, 129, 0.05);
+
+    --color-ann-bg: rgba(245, 158, 11, 0.08);
+    --color-ann-border: rgba(245, 158, 11, 0.3);
+    --color-ann-glow: rgba(245, 158, 11, 0.05);
+
+    --color-iss-bg: rgba(239, 68, 68, 0.08);
+    --color-iss-border: rgba(239, 68, 68, 0.3);
+    --color-iss-glow: rgba(239, 68, 68, 0.05);
+
+    --color-chg-bg: rgba(139, 92, 246, 0.08);
+    --color-chg-border: rgba(139, 92, 246, 0.3);
+    --color-chg-glow: rgba(139, 92, 246, 0.05);
+
+    --color-dep-bg: rgba(107, 114, 128, 0.08);
+    --color-dep-border: rgba(107, 114, 128, 0.3);
+    --color-dep-glow: rgba(107, 114, 128, 0.05);
+
+    --color-gen-bg: rgba(14, 165, 233, 0.08);
+    --color-gen-border: rgba(14, 165, 233, 0.3);
+    --color-gen-glow: rgba(14, 165, 233, 0.05);
+}
+
+[data-theme="light"] .glow-bg {
+    opacity: 0.15;
+}
+
+[data-theme="light"] .search-wrapper input {
+    background: rgba(15, 23, 42, 0.04);
+    border-color: rgba(15, 23, 42, 0.1);
+}
+
+[data-theme="light"] .search-wrapper input:focus {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(14, 165, 233, 0.1);
+}
+
+[data-theme="light"] .info-card {
+    background: rgba(15, 23, 42, 0.02);
+    border-color: rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="light"] .modal-container {
+    background: #ffffff;
+    border-color: rgba(15, 23, 42, 0.15);
+    box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+}
+
+[data-theme="light"] .modal-header {
+    border-bottom-color: rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="light"] .modal-reference {
+    background: rgba(15, 23, 42, 0.02);
+    border-right-color: rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="light"] .ref-content-box {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+[data-theme="light"] .composer-container {
+    background: rgba(15, 23, 42, 0.01);
+    border-color: rgba(15, 23, 42, 0.08);
+}
+
+[data-theme="light"] .tweet-textarea {
+    color: #0f172a;
+}
+
+[data-theme="light"] .tweet-textarea::placeholder {
+    color: rgba(15, 23, 42, 0.3);
+}
+
+[data-theme="light"] .btn-copy-card-action {
+    background: rgba(15, 23, 42, 0.04);
+    border-color: rgba(15, 23, 42, 0.08);
+    color: var(--color-text-muted);
+}
+
+[data-theme="light"] .btn-copy-card-action:hover {
+    background: rgba(15, 23, 42, 0.08);
+    color: var(--color-text-main);
+    border-color: rgba(15, 23, 42, 0.15);
+}
+
